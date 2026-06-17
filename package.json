@@ -1,0 +1,12 @@
+{
+    "name": "brightsdk-webos-example",
+    "version": "1.0.0",
+    "private": true,
+    "description": "BrightSDK WebOS integration example",
+    "scripts": {
+        "start": "node scripts/start.js",
+        "update": "npx github:BrightSDK/bright-sdk-integration --platform webos brd_sdk.config.json",
+        "update:interactive": "npx github:BrightSDK/bright-sdk-integration --platform webos",
+        "reset": "git clean -fdx && git checkout ."
+    }
+}

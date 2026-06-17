@@ -1,0 +1,6 @@
+service
+app/brd_api*
+app/service_index.js
+*.ipk
+package-lock.json
+temp/
